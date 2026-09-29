@@ -1,0 +1,5 @@
+difference between a 404 and a 500 : 404 status code means "Not Found", which indicates that the client requested a resource or page that does not exist on the server. But a 500 status code means "Internal Server Error", which is an unexpected error occurred on the server side while trying to process a valid request.
+
+Why does TypeScript strict mode reject tasks.find(...) as a Task return type? : Array.prototype.find returns undefined if no array element satisfies the search condition. Because undefined is a possible result at runtime, TypeScript strict mode refuses to guarantee a return type of Task and requires the return type to explicitly include undefined 
+
+Why do we work on a branch instead of committing to main? : Working on a separate branch keeps the main branch clean with working code. It allows developers to develop new features and fix bugs safely
